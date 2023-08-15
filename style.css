@@ -1,5 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     background-image: linear-gradient(to right,#a517ba,#5f1782);
+    position: sticky;
+    top: 0;
 }
 .navbar-brand img{
     height: 40px;
@@ -11,7 +18,7 @@
 }
 
 .fa-bars {
-    color: white; /* Change the color to the desired color */
+    color: white; 
     font-size: 30px;
 }
 #banner{
@@ -40,6 +47,10 @@
   margin-bottom: 50px;
    width: 100px;
 }
+#serv {
+    padding: 50px 0;
+    text-align: center;
+}
 #row1{
     padding-left: 200px;
     padding-right: 200px;
@@ -67,7 +78,7 @@
     padding: 8px 25px;
     border-radius: 20px;
     background-image: linear-gradient(to right,#a517ba,#5f1782);
-    color: white; /* Add this line to set the button text color */
+    color: white; 
    
 }
 .btn{
@@ -88,4 +99,19 @@
 }
 #testinomials{
     margin:100px 0;
+}
+.btn.btn-primary {
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+}
+.btn {
+    padding-bottom: 20px;
+}
+@media (max-width: 767px) {
+    #row1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
